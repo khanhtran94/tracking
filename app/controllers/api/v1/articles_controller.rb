@@ -5,7 +5,8 @@ class Api::V1::ArticlesController < ApplicationController
   # GET /articles.json
   def index
     #binding.pry
-    puts request.remote_url
+    puts 'log'.red
+    puts request.remote_ip
     #url = "http://localhost:3000/api/lp/all"
     #@result = RestClient.get(url, headers={})
   end
