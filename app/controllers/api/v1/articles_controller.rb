@@ -9,6 +9,7 @@ class Api::V1::ArticlesController < ApplicationController
     puts 'log----------------------------'
     puts request.remote_ip
     puts request.host
+    puts request.original_url
     #url = "http://localhost:3000/api/lp/all"
     #@result = RestClient.get(url, headers={})
   end
