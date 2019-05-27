@@ -1,7 +1,6 @@
 class Api::V1::ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
   require 'rest-client'
-  require 'colorize'
 
   # GET /articles
   # GET /articles.json
