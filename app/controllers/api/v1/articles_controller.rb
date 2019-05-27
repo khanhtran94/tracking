@@ -5,7 +5,7 @@ class Api::V1::ArticlesController < ApplicationController
   # GET /articles.json
   def index
     binding.pry
-    puts request.romote_url
+    puts "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
     url = "http://localhost:3000/api/lp/all"
     @result = RestClient.get(url, headers={})
   end
